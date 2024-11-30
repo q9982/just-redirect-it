@@ -1,1 +1,1 @@
-Open [https://q9982.github.io/index.html](https://q9982.github.io/index.html)
+Open [https://q9982.github.io/just-redirect-it/](https://q9982.github.io/just-redirect-it/)
