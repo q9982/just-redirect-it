@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Jumper</title>
+</head>
+<body>
+    <input type="text" id="url" placeholder="Enter URL" />
+    <button onclick="jump()">Go</button>
+
+    <script>
+        function jump() {
+            const url = document.getElementById('url').value;
+            window.location.href = ( url.startsWith('http://') || url.startsWith('https://') ) ? url : 'https://' + url;
+        }
+    </script>
+</body>
+</html>
